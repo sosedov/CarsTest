@@ -21,4 +21,4 @@ urlpatterns = [
     path('api/v1/cars/', include('cars.urls')),
     path('api/v1/base_auth/', include('rest_framework.urls'))
 ]
-]
+
