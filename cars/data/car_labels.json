@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "name" : "BMW",
+        "country" : "Germany"
+    },
+    {
+        "id" : 2,
+        "name" : "Toyota",
+        "country" : "Japan"
+    },
+    {
+        "id" : 3,
+        "name" : "Audi",
+        "country" : "Germany"
+    },
+    {
+        "id" : 4,
+        "name" : "Kia",
+        "country" : "Korea"
+    },
+    {
+        "id" : 5,
+        "name" : "Lada",
+        "country" : "Russia"
+    }
+]
