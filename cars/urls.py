@@ -1,7 +1,8 @@
 from django.urls import path, include
-from .views import CommonResponseMiddleware
+from .views import CarsView
 
 
 urlpatterns = [
-    path ('user/by/token/', CommonResponseMiddleware.as_view()),
+    path ('cars_list', CarsView.as_view()),
+    path('cars_list/<int:pk>', CarsView.as_view())
 ]
